@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="members_login_twitter" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
+	<name>Members: Twitter Login</name>
+	<description>
+		Logs in users usign Twitter oAuth
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/members_login_twitter</repo>
+	<url type="issues">https://github.com/DeuxHuitHuit/members_login_twitter/issues</url>
+	<types>
+		<type>Members</type>
+		<type>Third Party Integration</type>
+		<type>Twitter</type>
+	</types>
+	<dependencies>
+		<dependency version="1.9.0">members</dependency>
+	</dependencies>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>https://deuxhuithuit.com/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.0.0" date="2017-10-23" min="2.7.0" max="2.x.x">
+			- First release
+		</release>
+	</releases>
+</extension>
