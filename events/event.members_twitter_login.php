@@ -110,7 +110,7 @@ class eventmembers_twitter_login extends Event
                     $mdriver = $edriver->getMemberDriver();
                     $email = $response->email;
                     if (!$email) {
-                        $email = "twitter" . $response->screen_name . ".com";
+                        $email = "twitter@" . $response->screen_name . ".com";
                     }
                     $m = $femail->fetchMemberIDBy($email);
                     if (!$m) {
